@@ -9,14 +9,11 @@
 import Foundation
 
 class Concentration {
+    
     var cards: [Card] = []
-    
     var indexOfOneAndOnlyFaceUpCard: Int?
-    
     var flipCount = 0
     var score = 0
-    
-        
     var chosenCards: [Int] = []
     
     func chooseCard (at index: Int) {
@@ -66,4 +63,5 @@ class Concentration {
             cards = cards.shuffled()
         }
     }
+    
 }

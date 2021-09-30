@@ -9,6 +9,7 @@
 import Foundation
 
 struct Card {
+    
     var isFaceUp = false
     var isMatched = false
     var identifier: Int
@@ -23,4 +24,5 @@ struct Card {
     init () {
         self.identifier = Card.getUnicIdentifier()
     }
+    
 }

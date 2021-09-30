@@ -16,6 +16,7 @@
 		FD44F68F247191A300EE120E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD44F68E247191A300EE120E /* Assets.xcassets */; };
 		FD44F692247191A300EE120E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD44F690247191A300EE120E /* LaunchScreen.storyboard */; };
 		FDA35C8B249FC00300154041 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA35C8A249FC00300154041 /* IntExtension.swift */; };
+		FDF468F627061537002D55C1 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF468F527061537002D55C1 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FD44F691247191A300EE120E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD44F693247191A300EE120E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDA35C8A249FC00300154041 /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		FDF468F527061537002D55C1 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				FDA35C8A249FC00300154041 /* IntExtension.swift */,
+				FDF468F527061537002D55C1 /* UIButtonExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -71,9 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				FD3905EA2487007600B5C87A /* Extensions */,
+				FDF468F7270618E6002D55C1 /* Model */,
 				FD44F6892471919E00EE120E /* ViewController.swift */,
-				FD393A342479331D004A4294 /* Concentration.swift */,
-				FD393A3624793473004A4294 /* Card.swift */,
 				FD44F68B2471919E00EE120E /* Main.storyboard */,
 				FD44F6992471958800EE120E /* Supporting Files */,
 				FD44F6872471919E00EE120E /* SceneDelegate.swift */,
@@ -90,6 +92,15 @@
 				FD44F68E247191A300EE120E /* Assets.xcassets */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDF468F7270618E6002D55C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD393A3624793473004A4294 /* Card.swift */,
+				FD393A342479331D004A4294 /* Concentration.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +130,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "Lyudmila Platonova";
 				TargetAttributes = {
 					FD44F6812471919E00EE120E = {
@@ -167,6 +178,7 @@
 				FD393A352479331D004A4294 /* Concentration.swift in Sources */,
 				FD393A3724793473004A4294 /* Card.swift in Sources */,
 				FD44F6862471919E00EE120E /* AppDelegate.swift in Sources */,
+				FDF468F627061537002D55C1 /* UIButtonExtension.swift in Sources */,
 				FD44F6882471919E00EE120E /* SceneDelegate.swift in Sources */,
 				FDA35C8B249FC00300154041 /* IntExtension.swift in Sources */,
 			);
@@ -220,6 +232,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -280,6 +293,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
